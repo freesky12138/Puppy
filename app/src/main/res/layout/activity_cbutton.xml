@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cbutton_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="learn.com.example.administrator.puppy.CbuttonActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:textColor="#FF909090"
+        android:text="虚拟原点设置"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+
+
+    <Switch
+        android:id="@+id/is_cbutton_zd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@android:style/TextAppearance.Medium"
+        android:text="   主按键触动反馈"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="15dp"
+        android:background="#FF909090"/>
+
+    <Button
+        android:id="@+id/set_double_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@android:style/TextAppearance.Medium"
+        android:gravity="left|center_vertical"
+        android:background="#00000000"
+        android:text="   双击事件"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dp"
+
+        android:background="#FF909090"/>
+
+    <Button
+        android:id="@+id/set_long_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@android:style/TextAppearance.Medium"
+        android:gravity="left|center_vertical"
+        android:background="#00000000"
+        android:text="   长按事件"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="15dp"
+        android:background="#FF909090"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@android:style/TextAppearance.Medium"
+        android:text="   设置圆点透明度"
+        />
+
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbutton_touming_seekBar"
+        android:max="100"
+        android:progress="55"
+        android:indeterminate="false" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dp"
+        android:background="#FF909090"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@android:style/TextAppearance.Medium"
+        android:text="   设置圆点大小"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbutton_size_seekBar"
+        android:max="100"
+        android:progress="45"
+        android:indeterminate="false" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dp"
+        android:background="#FF909090"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        style="@android:style/TextAppearance.Medium"
+        android:text="   设置原点展开半径"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbutton_radius_seekBar"
+        android:max="100"
+        android:progress="45"
+        android:indeterminate="false" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dp"
+        android:background="#FF909090"/>
+
+</LinearLayout>
